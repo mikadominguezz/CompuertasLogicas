@@ -1,7 +1,13 @@
-﻿using  Library;
+﻿using System.Runtime.CompilerServices;
+using System.Xml;
+using  Library;
 
-public static class Program
+public class Program
 {
-    public static void Main(string[] args)
-    {}
+    public static void Main()
+    {
+        Not contrary = new Not("contrary");
+        contrary.GetOutput();
+
+    }
 }
